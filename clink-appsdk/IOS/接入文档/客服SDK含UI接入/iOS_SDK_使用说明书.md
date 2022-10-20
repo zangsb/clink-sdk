@@ -16,7 +16,7 @@
 
 <font color=LightSeaGreen size=4>三、发送表情</font>
 
-> 仅支持天润系统内部表情库
+> 仅支持系统内部表情库
 
 <img src="./assets/表情.PNG" alt="表情" style="zoom:30%;" />
 

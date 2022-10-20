@@ -9,7 +9,7 @@ package com.tinet.clink.crm.response.customer;
 public class CustomerField {
 
     /**
-     * 字段在天润系统中的不变属性，即id
+     * 字段在系统中的不变属性，即id
      */
     private Integer key;
 
@@ -24,7 +24,7 @@ public class CustomerField {
     private String value;
 
     /**
-     * 是否为天润系统固定字段 1：系统固定字段  0：客户自定义字段
+     * 是否为系统固定字段 1：系统固定字段  0：客户自定义字段
      */
     private Integer system;
 

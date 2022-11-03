@@ -26,8 +26,10 @@
     
     self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, kWindowWidth, kWindowHeight - kNavTop) configuration:configuration];
     [self.view addSubview:self.webView];
-    NSString *bundleStr = [[NSBundle mainBundle] pathForResource:@"document" ofType:@"html"];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:bundleStr]]];
+//    NSString *bundleStr = [[NSBundle mainBundle] pathForResource:@"document" ofType:@"html"];
+//    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:bundleStr]]];
+    
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://develop.clink.cn/develop/mobile/chat-mobile.html#_ios%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3"]]];
 }
 
 @end

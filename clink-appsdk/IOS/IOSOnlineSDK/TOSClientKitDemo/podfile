@@ -6,7 +6,7 @@ target "TOSClientKitDemo" do
 
 pod 'TOSClientKit'
 
-pod 'BaiduNaviKit-All'
+#pod 'BaiduNaviKit-All'
 
 pod 'Bugly'
 pod 'MBProgressHUD'

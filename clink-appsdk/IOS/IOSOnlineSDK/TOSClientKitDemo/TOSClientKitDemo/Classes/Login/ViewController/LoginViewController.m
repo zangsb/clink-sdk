@@ -163,9 +163,9 @@
             domainName.domainName = @"上海";
             domainName.apiUrlDomainName = @"https://octopus-api-1.vlink.cn/api/sdk/v1";
             domainName.onlineUrlDomainName = @"https://chat-app-sh.clink.cn";
-            domainName.accessSecretDomainName = @"D5B70DD63C4848B6824C0233D2FC201F";
-            domainName.accessIdDomainName = @"f8f7d2be61ce4b8ba272b35647ac1eb2";
-            domainName.enterpriseIdDomainName = @"8003846";
+            domainName.accessSecretDomainName = @"FE41001C52994240B9E242C6031DB33A";//@"D5B70DD63C4848B6824C0233D2FC201F";
+            domainName.accessIdDomainName = @"b4e73c8d197f4bd5aa2fb43b90b3f922";//@"f8f7d2be61ce4b8ba272b35647ac1eb2";
+            domainName.enterpriseIdDomainName = @"8008394";//@"8003846";
         }
             break;
         case 2: {

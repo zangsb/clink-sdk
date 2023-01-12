@@ -7,12 +7,12 @@
 
 #import "BaiduMapViewController.h"
 
-#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
-#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+//#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+//#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
 
-@interface BaiduMapViewController () <BMKMapViewDelegate>
+@interface BaiduMapViewController () //<BMKMapViewDelegate>
 
-@property (nonatomic, strong) BMKMapView *mapView;
+//@property (nonatomic, strong) BMKMapView *mapView;
 
 @end
 
@@ -21,20 +21,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.mapView = [[BMKMapView alloc]initWithFrame:self.view.bounds];
-    self.mapView.delegate = self;
-    self.mapView.showsUserLocation = YES;
-    [self.view addSubview:self.mapView];
+//    self.mapView = [[BMKMapView alloc]initWithFrame:self.view.bounds];
+//    self.mapView.delegate = self;
+//    self.mapView.showsUserLocation = YES;
+//    [self.view addSubview:self.mapView];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.mapView viewWillAppear];
+//    [self.mapView viewWillAppear];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [self.mapView viewWillDisappear];
+//    [self.mapView viewWillDisappear];
 }
 
 @end

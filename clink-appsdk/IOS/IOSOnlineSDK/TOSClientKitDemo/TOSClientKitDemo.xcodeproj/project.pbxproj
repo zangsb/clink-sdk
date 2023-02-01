@@ -1487,7 +1487,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = R4LP59GT9G;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1500,11 +1500,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TOSClientKitDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "客服SDK";
-				INFOPLIST_KEY_NSCameraUsageDescription = "需要您的相机权限，以便于拍摄照片发送使用";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要您的相机权限，以便于发送图片和视频消息";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要定位";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要您的麦克风权限，以便于发送语音时录音使用";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您的相册权限，以便于发送相册中图片时使用";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您的相册保存权限，以便于发送相册中图片时使用";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = " 需要您的相册保存权限，以便于保存发送的图片和视频消息";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您的相册权限，以便于将相册中的图片和视频作为消息发送";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1522,7 +1522,7 @@
 					"$(PROJECT_DIR)/TOSClientKitDemo/BaiduMap_IOSSDK_v5.2.0/thirdlibs",
 					"$(PROJECT_DIR)/TOSClientKitDemo/BaiduNaviSDK",
 				);
-				MARKETING_VERSION = 1.7.4;
+				MARKETING_VERSION = 1.7.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tionlineservice.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1541,7 +1541,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = R4LP59GT9G;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1554,11 +1554,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TOSClientKitDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "客服SDK";
-				INFOPLIST_KEY_NSCameraUsageDescription = "需要您的相机权限，以便于拍摄照片发送使用";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要您的相机权限，以便于发送图片和视频消息";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要定位";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要您的麦克风权限，以便于发送语音时录音使用";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您的相册权限，以便于发送相册中图片时使用";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您的相册保存权限，以便于发送相册中图片时使用";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = " 需要您的相册保存权限，以便于保存发送的图片和视频消息";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您的相册权限，以便于将相册中的图片和视频作为消息发送";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1576,7 +1576,7 @@
 					"$(PROJECT_DIR)/TOSClientKitDemo/BaiduMap_IOSSDK_v5.2.0/thirdlibs",
 					"$(PROJECT_DIR)/TOSClientKitDemo/BaiduNaviSDK",
 				);
-				MARKETING_VERSION = 1.7.4;
+				MARKETING_VERSION = 1.7.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tionlineservice.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

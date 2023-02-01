@@ -154,18 +154,34 @@
             domainName.domainName = @"北京";
             domainName.apiUrlDomainName = @"https://octopus-api-1.vlink.cn/api/sdk/v1";
             domainName.onlineUrlDomainName = @"https://chat-app-bj.clink.cn";
-            domainName.accessSecretDomainName = @"2C7C5D937C24492C8CC325F8546BACAD";//@"72EBF29CB4614F7AB404EEC07BFF0B1B";
-            domainName.accessIdDomainName = @"b0531dc999634ea0ba0b0f4534f833d0";//@"8758096679544ff189d4a9457747f109";
+            domainName.accessSecretDomainName = @"72EBF29CB4614F7AB404EEC07BFF0B1B";
+            domainName.accessIdDomainName = @"8758096679544ff189d4a9457747f109";
             domainName.enterpriseIdDomainName = @"8000002";
+            
+            //@"2C7C5D937C24492C8CC325F8546BACAD";
+            //@"b0531dc999634ea0ba0b0f4534f833d0";
+            //@"8000002";
+            
+            //@"72EBF29CB4614F7AB404EEC07BFF0B1B";
+            //@"8758096679544ff189d4a9457747f109";
+            //@"8000002";
         }
             break;
         case 1: {
             domainName.domainName = @"上海";
             domainName.apiUrlDomainName = @"https://octopus-api-1.vlink.cn/api/sdk/v1";
             domainName.onlineUrlDomainName = @"https://chat-app-sh.clink.cn";
-            domainName.accessSecretDomainName = @"FE41001C52994240B9E242C6031DB33A";//@"D5B70DD63C4848B6824C0233D2FC201F";
-            domainName.accessIdDomainName = @"b4e73c8d197f4bd5aa2fb43b90b3f922";//@"f8f7d2be61ce4b8ba272b35647ac1eb2";
-            domainName.enterpriseIdDomainName = @"8008394";//@"8003846";
+            domainName.accessSecretDomainName = @"D5B70DD63C4848B6824C0233D2FC201F";
+            domainName.accessIdDomainName = @"f8f7d2be61ce4b8ba272b35647ac1eb2";
+            domainName.enterpriseIdDomainName = @"8003846";
+            
+            //@"D5B70DD63C4848B6824C0233D2FC201F";
+            //@"f8f7d2be61ce4b8ba272b35647ac1eb2";
+            //@"8003846";
+            
+            //@"FE41001C52994240B9E242C6031DB33A";
+            //@"b4e73c8d197f4bd5aa2fb43b90b3f922";
+            //@"8008394";
         }
             break;
         case 2: {
